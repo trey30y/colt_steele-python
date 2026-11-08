@@ -44,19 +44,64 @@ print(f"Conversie: {age!s}")
 # 6. Metode uzuale de string (Multe altele)
 text = "  invat sa programez in python  "
 print("\nMetode:")
-print(f"strip(): '{text.strip()}'")
-print(f"upper(): '{text.upper()}'")
-print(f"lower(): '{text.lower()}'")
-print(f"capitalize(): '{text.capitalize()}'")
-print(f"title(): '{text.title()}'")
-print(f"replace(): '{text.replace('python', 'Python')}'")
-print(f"split(): {text.split()}")
-print(f"startswith(): {text.strip().startswith('i')}")
-print(f"endswith(): {text.strip().endswith('n')}")
-print(f"find(): {text.find('programez')}")
-print(f"count(): {text.count('a')}")
-print(f"isalnum(): {'Python3'.isalnum()}")
-print(f"isalpha(): {'Python'.isalpha()}")
-print(f"isdigit(): {'123'.isdigit()}")
+
+# strip() - sterge spatiile goale de la inceput si sfarsit
+print("Explicatie: strip() elimină spațiile albe de la începutul și sfârșitul șirului")
+print(f"Rezultat: '{text.strip()}'\n")
+
+# upper() - converteste totul in majuscule
+print("Explicatie: upper() convertește toate caracterele în majuscule")
+print(f"Rezultat: '{text.upper()}'\n")
+
+# lower() - converteste totul in minuscule
+print("Explicatie: lower() convertește toate caracterele în minuscule")
+print(f"Rezultat: '{text.lower()}'\n")
+
+# capitalize() - pune prima litera a stringului cu majuscula
+print("Explicatie: capitalize() pune majusculă doar la prima literă din șir")
+print(f"Rezultat: '{text.capitalize()}'\n")
+
+# title() - pune prima litera a fiecarui cuvant cu majuscula
+print("Explicatie: title() pune majusculă la prima literă a fiecărui cuvânt")
+print(f"Rezultat: '{text.title()}'\n")
+
+# replace() - inlocuieste o secventa de caractere cu alta
+print("Explicatie: replace() înlocuiește o sub-secvență cu alta")
+print(f"Rezultat: '{text.replace('python', 'Python')}'\n")
+
+# split() - imparte stringul intr-o lista (implicit dupa spatii)
+print("Explicatie: split() împarte șirul într-o listă bazată pe un separator")
+print(f"Rezultat: {text.split()}\n")
+
+# startswith() - returneaza True daca string-ul incepe cu caracterul dat
+print("Explicatie: startswith() verifică prefixul șirului (returnează boolean)")
+print(f"Rezultat: {text.strip().startswith('i')}\n")
+
+# endswith() - returneaza True daca string-ul se termina cu caracterul dat
+print("Explicatie: endswith() verifică sufixul șirului (returnează boolean)")
+print(f"Rezultat: {text.strip().endswith('n')}\n")
+
+# find() - returneaza indexul primei aparitii a substring-ului
+print("Explicatie: find() returnează indexul (poziția) primei apariții")
+print(f"Rezultat: {text.find('programez')}\n")
+
+# count() - numara de cate ori apare o secventa in string
+print("Explicatie: count() numără aparițiile unui sub-șir")
+print(f"Rezultat: {text.count('a')}\n")
+
+# isalnum() - verifica daca contine doar litere si cifre
+print("Explicatie: isalnum() verifică dacă șirul este alfanumeric")
+print(f"Rezultat: {'Python3'.isalnum()}\n")
+
+# isalpha() - verifica daca contine doar litere
+print("Explicatie: isalpha() verifică dacă șirul conține doar litere")
+print(f"Rezultat: {'Python'.isalpha()}\n")
+
+# isdigit() - verifica daca contine doar cifre
+print("Explicatie: isdigit() verifică dacă șirul conține doar cifre")
+print(f"Rezultat: {'123'.isdigit()}\n")
+
+# join() - uneste elementele unei liste intr-un singur string folosind un separator
 parts = ['a', 'b', 'c']
-print(f"join(): {'-'.join(parts)}")
+print("Explicatie: join() combină elementele unei liste într-un șir folosind un separator")
+print(f"Rezultat: {'-'.join(parts)}")
