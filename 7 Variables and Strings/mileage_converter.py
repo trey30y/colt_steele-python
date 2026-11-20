@@ -3,10 +3,10 @@
 print("--- Mileage Converter ---")
 
 while True:
-    miles = input("Enter the distance in miles: ")
+    km = input("Enter the distance in km: ")
     try:
-        miles_float = float(miles)
-        if miles_float < 0:
+        km_float = float(km)
+        if km_float < 0:
             print("Please enter a positive number.")
             continue
         break
@@ -14,7 +14,8 @@ while True:
         print("Invalid input. Please enter a valid number.")
 
 # 1 mile = 1.60934 kilometers
-kilometers = miles_float * 1.60934
+miles = km_float * 0.621371
+
 
 # Display result
-print(f"That is {round(kilometers, 2)} kilometers.")
+print(f"That is {round(miles, 2)} miles.")
