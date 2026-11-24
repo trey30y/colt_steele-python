@@ -14,8 +14,8 @@
 # \xhh Hex value
 
 print("Escape Sequences complete:")
-print("Double Quote: \"")
-print("Single Quote: \'")
+print('Double Quote: "')
+print("Single Quote: '")
 print("Backslash: \\")
 print("New Line: Test")
 print("Tab:\tTabbed")
@@ -102,6 +102,8 @@ print("Explicatie: isdigit() verifică dacă șirul conține doar cifre")
 print(f"Rezultat: {'123'.isdigit()}")
 
 # join() - uneste elementele unei liste intr-un singur string folosind un separator
-parts = ['a', 'b', 'c']
-print("Explicatie: join() combină elementele unei liste într-un șir folosind un separator")
+parts = ["a", "b", "c"]
+print(
+    "Explicatie: join() combină elementele unei liste într-un șir folosind un separator"
+)
 print(f"Rezultat: {'-'.join(parts)}")

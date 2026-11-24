@@ -37,13 +37,11 @@ rezultat_modulo = a % b
 
 # 7. Exponențierea (**)
 # Ridică valoarea lui a la puterea lui b
-rezultat_putere = a ** b
+rezultat_putere = a**b
 # 8. Radical (Putere fracționară)
 # Radicalul dintr-un număr este egal cu ridicarea acelui număr la puterea (1/n)
 # Exemplu: radical din a (a ** 0.5)
-rezultat_radical = a ** 0.5
+rezultat_radical = a**0.5
 
 # Alternativ, folosind biblioteca 'math' pentru mai multă precizie:
 rezultat_radical_math = math.sqrt(a)
-
-

@@ -29,6 +29,7 @@ When the user tells you which Colt Steele section/chapter or Python topic they j
      - Starter variables using a realistic customer support bot, company policy enforcement, RAG lookup, or order triage scenario.
      - Clear `# TODO:` comments in English describing the exact logic the user must write in VS Code.
      - `assert` statements at the bottom so the user can test their code via `python <folder>/<filename>.py`.
+   - **Mandatory Rule:** In any test function (`test_*`) or multi-parameter function call, use keyword arguments (`key=value`) exclusively. Unlabeled positional arguments are prohibited.
    - NEVER write completed solutions unless the user explicitly types "SHOW SOLUTION".
 
 4. **Stop & Hand Off:**
