@@ -28,7 +28,8 @@ When the user tells you which Colt Steele section/chapter or Python topic they j
    - Populate the file ONLY with:
      - Starter variables using a realistic customer support bot, company policy enforcement, RAG lookup, or order triage scenario.
      - Clear `# TODO:` comments in English describing the exact logic the user must write in VS Code.
-     - `assert` statements at the bottom so the user can test their code via `python <folder>/<filename>.py`.
+     - `assert` statements directly after each section (or at the bottom for single-topic exercises) so the user can test their code via `python <folder>/<filename>.py` without separate `test_*` files unless explicitly requested.
+     - When the user asks for multiple lectures/sub-chapters at once, order the sections in **ascending numerical order**, using **one single starter list/structure per section**.
    - **Mandatory Rule:** In any test function (`test_*`) or multi-parameter function call, use keyword arguments (`key=value`) exclusively. Unlabeled positional arguments are prohibited.
    - NEVER write completed solutions unless the user explicitly types "SHOW SOLUTION".
 
